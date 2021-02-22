@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">    
+    <style>
+        body{
+            margin: 0px;
+            background: darkblue;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+        }
+        .fade{
+            background:darkblue;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            margin-top: 100px;
+            z-index: 5;
+        }
+        #fade{
+            min-width: 60vw;
+            height: 30vw;
+            box-shadow: inset 0px 0px 30px 25px #00008b;
+            margin: 20px;
+            background: white;
+            background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/1bb8877824701.562a5843c9931.gif');
+            background-repeat:none;
+            background-size:cover;
+            background-attachment: center;
+        }
+        #cover{
+            min-width: 60vw;
+            height: auto;
+            margin: 20px;
+            height: 30vw;
+            box-shadow: inset 0px 0px 30px 25px #00008b;
+            position: absolute;
+            z-index: 5;
+        }
+        nav{
+            background:rgba(0, 0, 0, 0.8);
+            min-width: 100vw;
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 5px;
+            height: 50px;
+            font-family: Exo;
+            position:fixed;
+            top: 0px;
+            color: white;
+            text-align: center;
+        }
+        nav img{
+            height:40px;
+            margin: 30px;
+        }
+        h2{
+            margin-right: 30px;
+        }
+        a, a:hover, a:active a:visited{
+            color: white;
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://lh3.googleusercontent.com/V4Ua8N2GnqeV16qKkrvLxfKNldL7tngWXxrPX0yY3agMC0IBgxRqxWQatDmnbU1A5irjbV_AVxZ_ps-g2wlhSsf7VqvbYKcyN2R9Khx5A5pza2ycAV-N__1CCWXJ9YQlWUbbgHP7fA=w2400" alt="">
+        <h1>Web Development Project</h1>
+        <h2> <a href="https://portfolio1010.000webhostapp.com/code.html"> Contact</a></h2>
+    </nav>
+    <div class="fade">
+        <div id="fade"></div>
+        <div id="cover"></div>
+    </div>
+</body>
+</html>
